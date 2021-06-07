@@ -25,8 +25,50 @@ body {
     font-weight: bold;
 }
 
-.header .header__nav--li {
+.header__nav--li {
     list-style: none;
+}
+
+.header__nav--li:hover {
+    transform: scale(1.8);
+    transition: 500ms;
+    padding: 0 20px;
+}
+
+.header__nav--a {
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.header__nav--a:hover {
+    color: var(--black);
+}
+
+.header__button--button {
+    background-color: var(--green);
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid black
+}
+
+.header__button--button:hover {
+    background-color: #226f54a1;
+    transform: scale(1.2);
+    transition: 400ms;
+}
+
+.twitter-icons {
+    display: inline-block;
+    font-size: 3.0rem;
+    color: var(--black);
+    margin-top: -10px;
+}
+
+.twitter-icons i:hover {
+    color: rgba(0, 0, 0, 0.603);
+    transform: scale(1.5);
+    transition: 400ms;
+    margin: 0 20px;
 }
 
 
