@@ -1,0 +1,33 @@
+:root {
+    --green: #226f54;
+    --blue: #29526d;
+    --yellow: #aa7839;
+    --orange: #aa5639;
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --grey: rgb(128, 128, 128);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: var(--blue);
+}
+
+
+/* inicio header */
+
+.header__logo {
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.header .header__nav--li {
+    list-style: none;
+}
+
+
+/* fin header */
