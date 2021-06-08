@@ -120,8 +120,33 @@ body {
 
 .section__experience--arrow {
     font-size: 60px;
-    margin-bottom: 271px
+    margin-bottom: 150px;
 }
 
 
 /* fin section experiencia */
+
+
+/*inicio primer proyecto */
+
+.project__heading2 {
+    background-color: var(--black);
+    width: 220px;
+    color: var(--green);
+    border: outset 2px;
+}
+
+.project__button--see {
+    background-color: var(--green);
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: rgba(66, 226, 184, 0.25) 0px 54px 55px, rgba(66, 226, 184, 0.12) 0px -12px 30px, rgba(66, 226, 184, 0.12) 0px 4px 6px, rgba(66, 226, 184, 0.17) 0px 12px 13px, rgba(66, 226, 184, 0.09) 0px -3px 5px;
+}
+
+.project__button--see:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+
+/* fin primer proyecto */
