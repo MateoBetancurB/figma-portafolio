@@ -141,9 +141,21 @@ body {
     border-radius: 15px;
     border: 2px solid black;
     box-shadow: rgba(66, 226, 184, 0.25) 0px 54px 55px, rgba(66, 226, 184, 0.12) 0px -12px 30px, rgba(66, 226, 184, 0.12) 0px 4px 6px, rgba(66, 226, 184, 0.17) 0px 12px 13px, rgba(66, 226, 184, 0.09) 0px -3px 5px;
+    padding: 3px 15px;
 }
 
 .project__button--see:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.project__button--github {
+    background-color: var(--primary);
+    border-radius: 15px;
+    padding: 3px 15px;
+}
+
+.project__button--github:hover {
     transform: scale(1.1);
     transition: 300ms;
 }
