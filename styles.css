@@ -1,11 +1,12 @@
 :root {
-    --green: #226f54;
+    --green: #42e2b8;
     --blue: #29526d;
     --yellow: #aa7839;
     --orange: #aa5639;
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
     --grey: rgb(128, 128, 128);
+    --primary: #f7c2a7;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
 
 body {
     font-size: 1.5rem;
-    background-color: var(--blue);
+    background-color: var(--primary);
 }
 
 
@@ -23,6 +24,13 @@ body {
 .header__logo {
     font-size: 3.0rem;
     font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header__logo:hover {
+    color: rgba(0, 0, 0, 0.747);
+    transition: 300ms;
 }
 
 .header__nav--li {
@@ -48,38 +56,62 @@ body {
     background-color: var(--green);
     border-radius: 30px;
     font-weight: bold;
-    border: 2px solid black
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header__button--button:hover {
-    background-color: #226f54a1;
-    transform: scale(1.2);
+    background-color: #42e2b7b2;
+    transform: scale(1.1);
     transition: 400ms;
 }
 
 .twitter-icons {
-    display: inline-block;
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     color: var(--black);
     margin-top: -10px;
+    color: var(--green);
+}
+
+.twitter-icons i {
+    border: 3px solid black;
+    height: 45px;
 }
 
 .twitter-icons i:hover {
-    color: rgba(0, 0, 0, 0.603);
-    transform: scale(1.5);
+    color: #42e2b7b2;
+    transform: scale(1.2);
     transition: 400ms;
-    margin: 0 20px;
 }
 
 
 /* fin header */
 
 
+/* inicio section presentation */
+
+.presentation__heading2 {
+    font-size: 5.0rem;
+}
+
+.presentation__heading1 {
+    font-size: 6.0rem;
+    font-weight: bold;
+}
+
+.presentation__paragraph {
+    font-size: 1.7rem;
+}
+
+
+/* fin section presentation */
+
+
 /* inicio section experiencia */
 
 .section__experience--paragraph {
     margin-top: 200px;
-    /* text-align: center; */
+    font-size: 35px;
 }
 
 .section__experience--arrow {
