@@ -33,14 +33,18 @@ body {
     transition: 300ms;
 }
 
+.header__nav--ul {
+    padding: 0px;
+}
+
 .header__nav--li {
     list-style: none;
+    margin-right: 10px;
 }
 
 .header__nav--li:hover {
-    transform: scale(1.8);
+    transform: scale(1.1);
     transition: 500ms;
-    padding: 0 20px;
 }
 
 .header__nav--a {
