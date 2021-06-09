@@ -39,7 +39,7 @@ body {
 
 .header__nav--li {
     list-style: none;
-    margin-right: 10px;
+    margin-right: 1.0rem;
 }
 
 .header__nav--li:hover {
@@ -58,7 +58,7 @@ body {
 
 .header__button--button {
     background-color: var(--green);
-    border-radius: 30px;
+    border-radius: 3.0rem;
     font-weight: bold;
     border: 2px solid black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -78,8 +78,8 @@ body {
 }
 
 .twitter-icons i {
-    border: 3px solid black;
-    height: 45px;
+    border: .3rem solid black;
+    height: 4.5rem;
 }
 
 .twitter-icons i:hover {
@@ -114,13 +114,13 @@ body {
 /* inicio section experiencia */
 
 .section__experience--paragraph {
-    margin-top: 200px;
-    font-size: 35px;
+    margin-top: 20rem;
+    font-size: 3.5rem;
 }
 
 .section__experience--arrow {
-    font-size: 60px;
-    margin-bottom: 150px;
+    font-size: 6rem;
+    margin-bottom: 15rem;
 }
 
 
@@ -131,17 +131,17 @@ body {
 
 .project__heading2 {
     background-color: var(--black);
-    width: 220px;
+    width: 22rem;
     color: var(--green);
-    border: outset 2px;
+    border: outset .2rem;
 }
 
 .project__button--see {
     background-color: var(--green);
-    border-radius: 15px;
-    border: 2px solid black;
+    border-radius: 1.5rem;
+    border: 0.2rem solid black;
     box-shadow: rgba(66, 226, 184, 0.25) 0px 54px 55px, rgba(66, 226, 184, 0.12) 0px -12px 30px, rgba(66, 226, 184, 0.12) 0px 4px 6px, rgba(66, 226, 184, 0.17) 0px 12px 13px, rgba(66, 226, 184, 0.09) 0px -3px 5px;
-    padding: 3px 15px;
+    padding: 0.3rem 1.5rem;
 }
 
 .project__button--see:hover {
@@ -151,8 +151,8 @@ body {
 
 .project__button--github {
     background-color: var(--primary);
-    border-radius: 15px;
-    padding: 3px 15px;
+    border-radius: 1.5rem;
+    padding: 0.3rem 1.5rem;
 }
 
 .project__button--github:hover {
@@ -168,20 +168,32 @@ body {
 
 .card {
     margin-top: 8.0rem;
-    background-color: #f7c2a74f;
+    background-color: #f5dccf4f;
     box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 8px;
     border-radius: 1.0rem;
-    padding: 0px 40px 30px 40px;
+    padding: 0rem 4.0rem 3.0rem 4.0rem;
 }
 
 .card__img {
     background-color: black;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    margin: 40px 0px 15px 0px;
+    width: 4.0rem;
+    height: 4.0rem;
+    border-radius: 2.0rem;
+    margin: 4.0rem 0rem 1.5rem 0rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card__paragraph {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.card__footer {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
