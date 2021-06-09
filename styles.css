@@ -145,6 +145,7 @@ body {
 }
 
 .project__button--see:hover {
+    background-color: #42e2b7c2;
     transform: scale(1.1);
     transition: 300ms;
 }
@@ -156,6 +157,7 @@ body {
 }
 
 .project__button--github:hover {
+    background-color: #fce4d883;
     transform: scale(1.1);
     transition: 300ms;
 }
@@ -198,3 +200,25 @@ body {
 
 
 /* fin card */
+
+
+/* inicio project2 */
+
+.project:nth-of-type(3) {
+    margin-top: 10rem;
+}
+
+.flex {
+    margin-top: 10rem;
+    margin-left: 3.0rem;
+}
+
+.project__img {
+    border-radius: 2rem;
+    width: 30rem;
+    height: 35rem;
+    background-color: black;
+}
+
+
+/* fin project2 */
