@@ -162,3 +162,27 @@ body {
 
 
 /* fin primer proyecto */
+
+
+/* inicio card */
+
+.card {
+    margin-top: 8.0rem;
+    background-color: #f7c2a74f;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 8px;
+    border-radius: 1.0rem;
+    padding: 0px 40px 30px 40px;
+}
+
+.card__img {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 40px 0px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* fin card */
