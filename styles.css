@@ -257,7 +257,7 @@ body {
 }
 
 .form-container {
-    max-width: 70%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10rem;
@@ -266,24 +266,55 @@ body {
 .project__heading3 {
     background-color: var(--black);
     width: inherit;
-    height: 6rem;
+    height: 7rem;
     text-align: center;
     line-height: 6rem;
     color: var(--green);
     border: outset .2rem;
+    font-size: 3.5rem;
+}
+
+.project__label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
 .project__paragraph3 {
+    margin-top: 1.5rem;
+    margin-bottom: 3.5rem;
     font-size: 1.8rem;
     text-align: center;
 }
 
 .project__input {
+    padding-left: 15px;
+    margin-bottom: 1rem;
     width: 100%;
+    height: 4.5rem;
+    border-radius: 10px;
+    border: 2px solid rgb(189, 189, 189)
 }
 
 .form-container textarea {
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 10px;
     width: 100%;
+}
+
+.project__button {
+    width: 100%;
+    height: 4.5rem;
+    background-color: var(--green);
+    border-radius: 30px;
+    border: 2px solid #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.project__button:hover {
+    background-color: #42e2b7c2;
+    transition: 300ms;
 }
 
 

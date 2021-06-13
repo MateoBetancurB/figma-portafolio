@@ -115,13 +115,13 @@
         <form class="form-container">
             <h2 class="project__heading3 mx-auto">HABLEMOS</h2>
             <p class="project__paragraph3">Si está interesado en trabajar conmigo en su próximo proyecto, no dude <br> en ponerse en contacto conmigo.</p>
-            <label for="" class="project__label">Nombre completo</label> <br>
-            <input type="text" class="project__input" placeholder="Juan"> <br>
-            <label for="" class="project__label">Correo electrónico</label> <br>
-            <input type="email" name="" id="" class="project__input" placeholder="Juan@gmail.com"> <br>
-            <label for="" class="project__label">Mensaje</label> <br>
-            <textarea name="" class="project__label" id="" cols="30" rows="10"></textarea> <br>
-            <input type="submit" class="project__input">
+            <label for="name" class="project__label">Nombre completo</label> <br>
+            <input type="text" id="name" class="project__input" placeholder="Juan" required> <br>
+            <label for="email" class="project__label">Correo electrónico</label> <br>
+            <input type="email" name="" id="email" class="project__input" placeholder="Juan@gmail.com" required> <br>
+            <label for="message" class="project__label">Mensaje</label> <br>
+            <textarea name="" class="project__textarea" id="message" cols="30" rows="10" required></textarea> <br>
+            <input type="submit" value="ENVIAR MENSAJE" class="project__button">
         </form>
     </section>
 
