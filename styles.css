@@ -319,3 +319,18 @@ body {
 
 
 /* fin form */
+
+
+/* inicio footer */
+
+.footer {
+    background-color: #f2b3a4;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* fin footer */
