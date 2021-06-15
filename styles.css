@@ -325,11 +325,30 @@ body {
 
 .footer {
     background-color: #f2b3a4;
+    height: 8rem;
 }
 
 .flex-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    line-height: 8rem;
+}
+
+.footer__paragraph {
+    line-height: 8rem;
+    font-size: 1.7rem;
+}
+
+.heart {
+    font-size: 4rem;
+}
+
+.footer_container--icons {
+    font-size: 2.5rem;
 }
 
 
