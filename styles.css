@@ -74,18 +74,16 @@ body {
     font-size: 4.0rem;
     color: var(--black);
     margin-top: -10px;
-    color: var(--green);
+    color: var(--black);
+    background-color: var(--green);
+    border: 3px solid black;
+    border-radius: .7rem;
+    margin-left: 1.4rem;
+    margin-top: .8rem;
 }
 
-.twitter-icons i {
-    border: .3rem solid black;
-    height: 4.5rem;
-}
-
-.twitter-icons i:hover {
-    color: #42e2b7b2;
-    transform: scale(1.2);
-    transition: 400ms;
+.twitter-icons:first-child {
+    margin-left: 0;
 }
 
 
@@ -325,7 +323,10 @@ body {
 
 .footer {
     background-color: #f2b3a4;
-    height: 8rem;
+    height: 12rem;
+    border: 3px solid red;
+    position: static;
+    bottom: 0%;
 }
 
 .flex-footer {
@@ -339,7 +340,7 @@ body {
 }
 
 .footer__paragraph {
-    line-height: 8rem;
+    line-height: 12rem;
     font-size: 1.7rem;
 }
 
@@ -349,6 +350,19 @@ body {
 
 .footer_container--icons {
     font-size: 2.5rem;
+    text-align: center;
+    line-height: 12rem;
+    padding-top: 30px;
+}
+
+.footer_container--icons i {
+    border-radius: .5rem;
+    margin-left: 1.2rem;
+    background-color: var(--green);
+    height: 4rem;
+    width: 4rem;
+    padding-top: .7rem;
+    border: 3px solid black;
 }
 
 
