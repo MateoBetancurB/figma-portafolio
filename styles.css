@@ -72,7 +72,7 @@ body {
 }
 
 .twitter-icons {
-    font-size: 4.0rem;
+    font-size: 2.5rem;
     color: var(--black);
     margin-top: -10px;
     color: var(--black);
@@ -81,6 +81,7 @@ body {
     border-radius: .7rem;
     margin-left: 1.4rem;
     margin-top: .8rem;
+    padding: .6rem;
 }
 
 .twitter-icons:first-child {
