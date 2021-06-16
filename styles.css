@@ -16,6 +16,7 @@ html {
 body {
     font-size: 1.5rem;
     background-color: var(--primary);
+    overflow-x: hidden;
 }
 
 
@@ -252,6 +253,7 @@ body {
     background-color: #f2b3a4;
     width: 100vw;
     margin-top: 5rem;
+    padding-bottom: 6rem;
 }
 
 .form-container {
@@ -322,11 +324,7 @@ body {
 /* inicio footer */
 
 .footer {
-    background-color: #f2b3a4;
-    height: 12rem;
-    border: 3px solid red;
-    position: static;
-    bottom: 0%;
+    background-color: var(--primary);
 }
 
 .flex-footer {
@@ -340,7 +338,6 @@ body {
 }
 
 .footer__paragraph {
-    line-height: 12rem;
     font-size: 1.7rem;
 }
 
